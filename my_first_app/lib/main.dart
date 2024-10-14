@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_first_app/project_screen_2.dart';
+import 'package:my_first_app/add_project_form.dart';
 
 void main() {
   runApp(const MyApp());
@@ -149,7 +150,7 @@ class ProfileCard extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (context) =>
-                                  ProjectScreen2(projects: const [
+                                  const ProjectScreen2(projects: [
                                     {
                                       "title": "Test Title",
                                       "description": "desc",
